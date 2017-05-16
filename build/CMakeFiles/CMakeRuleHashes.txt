@@ -1,0 +1,9 @@
+# Hashes of file build rules.
+78a79fc49ef190479cf2674f711ab40d CMakeFiles/_dok
+78a79fc49ef190479cf2674f711ab40d CMakeFiles/dok
+9fc152ddf8e3a102b449fb987112b69b CMakeFiles/dok_auxclean
+78a79fc49ef190479cf2674f711ab40d CMakeFiles/dok_pdf
+78a79fc49ef190479cf2674f711ab40d CMakeFiles/szim_futtatas
+564660c5a4a8e90c28c224ebea7ff15c asdasdasd.dat
+88edd19f000028c171053981e40271f4 build/eredmenyek.png
+afbc7fc1457955ca4bde61bc83db9ca4 master.pdf
