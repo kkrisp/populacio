@@ -1,2 +1,0 @@
-/usr/bin/ar qc libGroup.a  CMakeFiles/Group.dir/Group.cpp.o
-/usr/bin/ranlib libGroup.a

@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/Szimulacio.dir/Demo.cpp.o  -o Szimulacio -rdynamic ../forrasfajlok/libFauna.a 

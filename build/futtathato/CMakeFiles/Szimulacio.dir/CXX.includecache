@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../forrasfajlok/fejek/Animal.hpp
+string
+-
+iostream
+-
+stdlib.h
+-
+
+../forrasfajlok/fejek/Group.hpp
+Animal.hpp
+../forrasfajlok/fejek/Animal.hpp
+
+/home/kris/Documents/KutInf/Beadadno/futtathato/Demo.cpp
+string
+-
+iostream
+-
+fstream
+-
+Demo.hpp
+/home/kris/Documents/KutInf/Beadadno/futtathato/Demo.hpp
+Group.hpp
+/home/kris/Documents/KutInf/Beadadno/futtathato/Group.hpp
+
+/home/kris/Documents/KutInf/Beadadno/futtathato/Demo.hpp
+
