@@ -1,3 +1,3 @@
 // verzioszamok, amiket a cmake allit be ...
-#define Populacio_projekt_VERSION_MAJOR 
-#define Populacio_projekt_VERSION_MINOR 
+#define Populacio_projekt_VERSION_MAJOR 1
+#define Populacio_projekt_VERSION_MINOR 0

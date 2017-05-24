@@ -1,2 +1,0 @@
-/usr/bin/ar qc libEgyAllat.a  CMakeFiles/EgyAllat.dir/testek/Animal.cpp.o
-/usr/bin/ranlib libEgyAllat.a
