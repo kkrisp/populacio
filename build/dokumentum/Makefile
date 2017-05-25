@@ -110,6 +110,156 @@ depend:
 	cd /home/kris/Documents/KutInf/Beadadno/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+dokumentum/CMakeFiles/dvi.dir/rule:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f CMakeFiles/Makefile2 dokumentum/CMakeFiles/dvi.dir/rule
+.PHONY : dokumentum/CMakeFiles/dvi.dir/rule
+
+# Convenience name for target.
+dvi: dokumentum/CMakeFiles/dvi.dir/rule
+
+.PHONY : dvi
+
+# fast build rule for target.
+dvi/fast:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f dokumentum/CMakeFiles/dvi.dir/build.make dokumentum/CMakeFiles/dvi.dir/build
+.PHONY : dvi/fast
+
+# Convenience name for target.
+dokumentum/CMakeFiles/ps.dir/rule:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f CMakeFiles/Makefile2 dokumentum/CMakeFiles/ps.dir/rule
+.PHONY : dokumentum/CMakeFiles/ps.dir/rule
+
+# Convenience name for target.
+ps: dokumentum/CMakeFiles/ps.dir/rule
+
+.PHONY : ps
+
+# fast build rule for target.
+ps/fast:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f dokumentum/CMakeFiles/ps.dir/build.make dokumentum/CMakeFiles/ps.dir/build
+.PHONY : ps/fast
+
+# Convenience name for target.
+dokumentum/CMakeFiles/dokumentum_pdf.dir/rule:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f CMakeFiles/Makefile2 dokumentum/CMakeFiles/dokumentum_pdf.dir/rule
+.PHONY : dokumentum/CMakeFiles/dokumentum_pdf.dir/rule
+
+# Convenience name for target.
+dokumentum_pdf: dokumentum/CMakeFiles/dokumentum_pdf.dir/rule
+
+.PHONY : dokumentum_pdf
+
+# fast build rule for target.
+dokumentum_pdf/fast:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f dokumentum/CMakeFiles/dokumentum_pdf.dir/build.make dokumentum/CMakeFiles/dokumentum_pdf.dir/build
+.PHONY : dokumentum_pdf/fast
+
+# Convenience name for target.
+dokumentum/CMakeFiles/pdf.dir/rule:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f CMakeFiles/Makefile2 dokumentum/CMakeFiles/pdf.dir/rule
+.PHONY : dokumentum/CMakeFiles/pdf.dir/rule
+
+# Convenience name for target.
+pdf: dokumentum/CMakeFiles/pdf.dir/rule
+
+.PHONY : pdf
+
+# fast build rule for target.
+pdf/fast:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f dokumentum/CMakeFiles/pdf.dir/build.make dokumentum/CMakeFiles/pdf.dir/build
+.PHONY : pdf/fast
+
+# Convenience name for target.
+dokumentum/CMakeFiles/html.dir/rule:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f CMakeFiles/Makefile2 dokumentum/CMakeFiles/html.dir/rule
+.PHONY : dokumentum/CMakeFiles/html.dir/rule
+
+# Convenience name for target.
+html: dokumentum/CMakeFiles/html.dir/rule
+
+.PHONY : html
+
+# fast build rule for target.
+html/fast:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f dokumentum/CMakeFiles/html.dir/build.make dokumentum/CMakeFiles/html.dir/build
+.PHONY : html/fast
+
+# Convenience name for target.
+dokumentum/CMakeFiles/dokumentum.dir/rule:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f CMakeFiles/Makefile2 dokumentum/CMakeFiles/dokumentum.dir/rule
+.PHONY : dokumentum/CMakeFiles/dokumentum.dir/rule
+
+# Convenience name for target.
+dokumentum: dokumentum/CMakeFiles/dokumentum.dir/rule
+
+.PHONY : dokumentum
+
+# fast build rule for target.
+dokumentum/fast:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f dokumentum/CMakeFiles/dokumentum.dir/build.make dokumentum/CMakeFiles/dokumentum.dir/build
+.PHONY : dokumentum/fast
+
+# Convenience name for target.
+dokumentum/CMakeFiles/auxclean.dir/rule:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f CMakeFiles/Makefile2 dokumentum/CMakeFiles/auxclean.dir/rule
+.PHONY : dokumentum/CMakeFiles/auxclean.dir/rule
+
+# Convenience name for target.
+auxclean: dokumentum/CMakeFiles/auxclean.dir/rule
+
+.PHONY : auxclean
+
+# fast build rule for target.
+auxclean/fast:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f dokumentum/CMakeFiles/auxclean.dir/build.make dokumentum/CMakeFiles/auxclean.dir/build
+.PHONY : auxclean/fast
+
+# Convenience name for target.
+dokumentum/CMakeFiles/safepdf.dir/rule:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f CMakeFiles/Makefile2 dokumentum/CMakeFiles/safepdf.dir/rule
+.PHONY : dokumentum/CMakeFiles/safepdf.dir/rule
+
+# Convenience name for target.
+safepdf: dokumentum/CMakeFiles/safepdf.dir/rule
+
+.PHONY : safepdf
+
+# fast build rule for target.
+safepdf/fast:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f dokumentum/CMakeFiles/safepdf.dir/build.make dokumentum/CMakeFiles/safepdf.dir/build
+.PHONY : safepdf/fast
+
+# Convenience name for target.
+dokumentum/CMakeFiles/_dokumentum.dir/rule:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f CMakeFiles/Makefile2 dokumentum/CMakeFiles/_dokumentum.dir/rule
+.PHONY : dokumentum/CMakeFiles/_dokumentum.dir/rule
+
+# Convenience name for target.
+_dokumentum: dokumentum/CMakeFiles/_dokumentum.dir/rule
+
+.PHONY : _dokumentum
+
+# fast build rule for target.
+_dokumentum/fast:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f dokumentum/CMakeFiles/_dokumentum.dir/build.make dokumentum/CMakeFiles/_dokumentum.dir/build
+.PHONY : _dokumentum/fast
+
+# Convenience name for target.
+dokumentum/CMakeFiles/dokumentum_auxclean.dir/rule:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f CMakeFiles/Makefile2 dokumentum/CMakeFiles/dokumentum_auxclean.dir/rule
+.PHONY : dokumentum/CMakeFiles/dokumentum_auxclean.dir/rule
+
+# Convenience name for target.
+dokumentum_auxclean: dokumentum/CMakeFiles/dokumentum_auxclean.dir/rule
+
+.PHONY : dokumentum_auxclean
+
+# fast build rule for target.
+dokumentum_auxclean/fast:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f dokumentum/CMakeFiles/dokumentum_auxclean.dir/build.make dokumentum/CMakeFiles/dokumentum_auxclean.dir/build
+.PHONY : dokumentum_auxclean/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -118,6 +268,16 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... dvi"
+	@echo "... ps"
+	@echo "... dokumentum_pdf"
+	@echo "... pdf"
+	@echo "... html"
+	@echo "... dokumentum"
+	@echo "... auxclean"
+	@echo "... safepdf"
+	@echo "... _dokumentum"
+	@echo "... dokumentum_auxclean"
 .PHONY : help
 
 

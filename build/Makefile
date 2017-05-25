@@ -162,6 +162,136 @@ plottolas/fast:
 	$(MAKE) -f plottolas/CMakeFiles/plottolas.dir/build.make plottolas/CMakeFiles/plottolas.dir/build
 .PHONY : plottolas/fast
 
+#=============================================================================
+# Target rules for targets named dvi
+
+# Build rule for target.
+dvi: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dvi
+.PHONY : dvi
+
+# fast build rule for target.
+dvi/fast:
+	$(MAKE) -f dokumentum/CMakeFiles/dvi.dir/build.make dokumentum/CMakeFiles/dvi.dir/build
+.PHONY : dvi/fast
+
+#=============================================================================
+# Target rules for targets named ps
+
+# Build rule for target.
+ps: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 ps
+.PHONY : ps
+
+# fast build rule for target.
+ps/fast:
+	$(MAKE) -f dokumentum/CMakeFiles/ps.dir/build.make dokumentum/CMakeFiles/ps.dir/build
+.PHONY : ps/fast
+
+#=============================================================================
+# Target rules for targets named dokumentum_pdf
+
+# Build rule for target.
+dokumentum_pdf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dokumentum_pdf
+.PHONY : dokumentum_pdf
+
+# fast build rule for target.
+dokumentum_pdf/fast:
+	$(MAKE) -f dokumentum/CMakeFiles/dokumentum_pdf.dir/build.make dokumentum/CMakeFiles/dokumentum_pdf.dir/build
+.PHONY : dokumentum_pdf/fast
+
+#=============================================================================
+# Target rules for targets named pdf
+
+# Build rule for target.
+pdf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pdf
+.PHONY : pdf
+
+# fast build rule for target.
+pdf/fast:
+	$(MAKE) -f dokumentum/CMakeFiles/pdf.dir/build.make dokumentum/CMakeFiles/pdf.dir/build
+.PHONY : pdf/fast
+
+#=============================================================================
+# Target rules for targets named html
+
+# Build rule for target.
+html: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 html
+.PHONY : html
+
+# fast build rule for target.
+html/fast:
+	$(MAKE) -f dokumentum/CMakeFiles/html.dir/build.make dokumentum/CMakeFiles/html.dir/build
+.PHONY : html/fast
+
+#=============================================================================
+# Target rules for targets named dokumentum
+
+# Build rule for target.
+dokumentum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dokumentum
+.PHONY : dokumentum
+
+# fast build rule for target.
+dokumentum/fast:
+	$(MAKE) -f dokumentum/CMakeFiles/dokumentum.dir/build.make dokumentum/CMakeFiles/dokumentum.dir/build
+.PHONY : dokumentum/fast
+
+#=============================================================================
+# Target rules for targets named auxclean
+
+# Build rule for target.
+auxclean: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 auxclean
+.PHONY : auxclean
+
+# fast build rule for target.
+auxclean/fast:
+	$(MAKE) -f dokumentum/CMakeFiles/auxclean.dir/build.make dokumentum/CMakeFiles/auxclean.dir/build
+.PHONY : auxclean/fast
+
+#=============================================================================
+# Target rules for targets named safepdf
+
+# Build rule for target.
+safepdf: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 safepdf
+.PHONY : safepdf
+
+# fast build rule for target.
+safepdf/fast:
+	$(MAKE) -f dokumentum/CMakeFiles/safepdf.dir/build.make dokumentum/CMakeFiles/safepdf.dir/build
+.PHONY : safepdf/fast
+
+#=============================================================================
+# Target rules for targets named _dokumentum
+
+# Build rule for target.
+_dokumentum: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _dokumentum
+.PHONY : _dokumentum
+
+# fast build rule for target.
+_dokumentum/fast:
+	$(MAKE) -f dokumentum/CMakeFiles/_dokumentum.dir/build.make dokumentum/CMakeFiles/_dokumentum.dir/build
+.PHONY : _dokumentum/fast
+
+#=============================================================================
+# Target rules for targets named dokumentum_auxclean
+
+# Build rule for target.
+dokumentum_auxclean: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 dokumentum_auxclean
+.PHONY : dokumentum_auxclean
+
+# fast build rule for target.
+dokumentum_auxclean/fast:
+	$(MAKE) -f dokumentum/CMakeFiles/dokumentum_auxclean.dir/build.make dokumentum/CMakeFiles/dokumentum_auxclean.dir/build
+.PHONY : dokumentum_auxclean/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -174,6 +304,16 @@ help:
 	@echo "... szim_futtatas"
 	@echo "... Szimulacio"
 	@echo "... plottolas"
+	@echo "... dvi"
+	@echo "... ps"
+	@echo "... dokumentum_pdf"
+	@echo "... pdf"
+	@echo "... html"
+	@echo "... dokumentum"
+	@echo "... auxclean"
+	@echo "... safepdf"
+	@echo "... _dokumentum"
+	@echo "... dokumentum_auxclean"
 .PHONY : help
 
 

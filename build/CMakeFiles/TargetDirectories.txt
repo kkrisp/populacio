@@ -12,3 +12,13 @@
 /home/kris/Documents/KutInf/Beadadno/build/plottolas/CMakeFiles/plottolas.dir
 /home/kris/Documents/KutInf/Beadadno/build/dokumentum/CMakeFiles/edit_cache.dir
 /home/kris/Documents/KutInf/Beadadno/build/dokumentum/CMakeFiles/rebuild_cache.dir
+/home/kris/Documents/KutInf/Beadadno/build/dokumentum/CMakeFiles/dvi.dir
+/home/kris/Documents/KutInf/Beadadno/build/dokumentum/CMakeFiles/ps.dir
+/home/kris/Documents/KutInf/Beadadno/build/dokumentum/CMakeFiles/dokumentum_pdf.dir
+/home/kris/Documents/KutInf/Beadadno/build/dokumentum/CMakeFiles/pdf.dir
+/home/kris/Documents/KutInf/Beadadno/build/dokumentum/CMakeFiles/html.dir
+/home/kris/Documents/KutInf/Beadadno/build/dokumentum/CMakeFiles/dokumentum.dir
+/home/kris/Documents/KutInf/Beadadno/build/dokumentum/CMakeFiles/auxclean.dir
+/home/kris/Documents/KutInf/Beadadno/build/dokumentum/CMakeFiles/safepdf.dir
+/home/kris/Documents/KutInf/Beadadno/build/dokumentum/CMakeFiles/_dokumentum.dir
+/home/kris/Documents/KutInf/Beadadno/build/dokumentum/CMakeFiles/dokumentum_auxclean.dir
