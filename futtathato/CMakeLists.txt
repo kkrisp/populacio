@@ -7,7 +7,7 @@ set (Populacio_szim_alverzio 0)
 
 configure_file (
                 "${PROJECT_SOURCE_DIR}/Demo.hpp.in"
-                "${PROJECT_SOURCE_DIR}/Demo.hpp"    
+                "${PROJECT_BINARY_DIR}/Demo.hpp"    
                 )
 
 add_executable (${PROJECT_NAME} ${PROJECT_BINARY_DIR}/Demo.hpp Demo.cpp)

@@ -149,6 +149,19 @@ Szimulacio/fast:
 	$(MAKE) -f futtathato/CMakeFiles/Szimulacio.dir/build.make futtathato/CMakeFiles/Szimulacio.dir/build
 .PHONY : Szimulacio/fast
 
+#=============================================================================
+# Target rules for targets named plottolas
+
+# Build rule for target.
+plottolas: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 plottolas
+.PHONY : plottolas
+
+# fast build rule for target.
+plottolas/fast:
+	$(MAKE) -f plottolas/CMakeFiles/plottolas.dir/build.make plottolas/CMakeFiles/plottolas.dir/build
+.PHONY : plottolas/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -160,6 +173,7 @@ help:
 	@echo "... Fauna"
 	@echo "... szim_futtatas"
 	@echo "... Szimulacio"
+	@echo "... plottolas"
 .PHONY : help
 
 

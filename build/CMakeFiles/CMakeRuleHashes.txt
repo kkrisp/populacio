@@ -1,3 +1,5 @@
 # Hashes of file build rules.
 167a18c690b4925caefc69eef94cfae6 futtathato/CMakeFiles/szim_futtatas
+bf1f0217d32928ff8bf6fd91e417a0b4 plottolas/CMakeFiles/plottolas
+99dd8d2dd13532ee0246db7c4ebdda68 pop_diagram.png
 354c8c4300e9b8c098c4545e5f22ebe9 szim_eredmenyek.dat

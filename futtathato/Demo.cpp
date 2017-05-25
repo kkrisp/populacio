@@ -18,7 +18,7 @@ int main () {
     Group nyulak(100, nyul);    //100
     
     std::ofstream file;
-    file.open("popsim.dat");
+    file.open("szim_eredmenyek.dat");
 
     int food = 40;
     for (int i=0; i<50; i++) {

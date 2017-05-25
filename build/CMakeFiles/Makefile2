@@ -140,7 +140,7 @@ futtathato/preinstall:
 futtathato/CMakeFiles/szim_futtatas.dir/all: futtathato/CMakeFiles/Szimulacio.dir/all
 	$(MAKE) -f futtathato/CMakeFiles/szim_futtatas.dir/build.make futtathato/CMakeFiles/szim_futtatas.dir/depend
 	$(MAKE) -f futtathato/CMakeFiles/szim_futtatas.dir/build.make futtathato/CMakeFiles/szim_futtatas.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kris/Documents/KutInf/Beadadno/build/CMakeFiles --progress-num=6 "Built target szim_futtatas"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kris/Documents/KutInf/Beadadno/build/CMakeFiles --progress-num=7 "Built target szim_futtatas"
 .PHONY : futtathato/CMakeFiles/szim_futtatas.dir/all
 
 # Build rule for subdir invocation for target.
@@ -211,7 +211,7 @@ plottolas/all:
 .PHONY : plottolas/all
 
 # Convenience name for "clean" pass in the directory.
-plottolas/clean:
+plottolas/clean: plottolas/CMakeFiles/plottolas.dir/clean
 
 .PHONY : plottolas/clean
 
@@ -219,6 +219,38 @@ plottolas/clean:
 plottolas/preinstall:
 
 .PHONY : plottolas/preinstall
+
+#=============================================================================
+# Target rules for target plottolas/CMakeFiles/plottolas.dir
+
+# All Build rule for target.
+plottolas/CMakeFiles/plottolas.dir/all: futtathato/CMakeFiles/szim_futtatas.dir/all
+	$(MAKE) -f plottolas/CMakeFiles/plottolas.dir/build.make plottolas/CMakeFiles/plottolas.dir/depend
+	$(MAKE) -f plottolas/CMakeFiles/plottolas.dir/build.make plottolas/CMakeFiles/plottolas.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/kris/Documents/KutInf/Beadadno/build/CMakeFiles --progress-num=6 "Built target plottolas"
+.PHONY : plottolas/CMakeFiles/plottolas.dir/all
+
+# Build rule for subdir invocation for target.
+plottolas/CMakeFiles/plottolas.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kris/Documents/KutInf/Beadadno/build/CMakeFiles 7
+	$(MAKE) -f CMakeFiles/Makefile2 plottolas/CMakeFiles/plottolas.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/kris/Documents/KutInf/Beadadno/build/CMakeFiles 0
+.PHONY : plottolas/CMakeFiles/plottolas.dir/rule
+
+# Convenience name for target.
+plottolas: plottolas/CMakeFiles/plottolas.dir/rule
+
+.PHONY : plottolas
+
+# clean rule for target.
+plottolas/CMakeFiles/plottolas.dir/clean:
+	$(MAKE) -f plottolas/CMakeFiles/plottolas.dir/build.make plottolas/CMakeFiles/plottolas.dir/clean
+.PHONY : plottolas/CMakeFiles/plottolas.dir/clean
+
+# clean rule for target.
+clean: plottolas/CMakeFiles/plottolas.dir/clean
+
+.PHONY : clean
 
 #=============================================================================
 # Directory level rules for directory dokumentum

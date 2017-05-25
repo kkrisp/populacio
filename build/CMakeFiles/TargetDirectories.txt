@@ -9,5 +9,6 @@
 /home/kris/Documents/KutInf/Beadadno/build/futtathato/CMakeFiles/Szimulacio.dir
 /home/kris/Documents/KutInf/Beadadno/build/plottolas/CMakeFiles/edit_cache.dir
 /home/kris/Documents/KutInf/Beadadno/build/plottolas/CMakeFiles/rebuild_cache.dir
+/home/kris/Documents/KutInf/Beadadno/build/plottolas/CMakeFiles/plottolas.dir
 /home/kris/Documents/KutInf/Beadadno/build/dokumentum/CMakeFiles/edit_cache.dir
 /home/kris/Documents/KutInf/Beadadno/build/dokumentum/CMakeFiles/rebuild_cache.dir

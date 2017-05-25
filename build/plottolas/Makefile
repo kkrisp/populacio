@@ -110,6 +110,21 @@ depend:
 	cd /home/kris/Documents/KutInf/Beadadno/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
+# Convenience name for target.
+plottolas/CMakeFiles/plottolas.dir/rule:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f CMakeFiles/Makefile2 plottolas/CMakeFiles/plottolas.dir/rule
+.PHONY : plottolas/CMakeFiles/plottolas.dir/rule
+
+# Convenience name for target.
+plottolas: plottolas/CMakeFiles/plottolas.dir/rule
+
+.PHONY : plottolas
+
+# fast build rule for target.
+plottolas/fast:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f plottolas/CMakeFiles/plottolas.dir/build.make plottolas/CMakeFiles/plottolas.dir/build
+.PHONY : plottolas/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -118,6 +133,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... plottolas"
 .PHONY : help
 
 
