@@ -33,7 +33,7 @@ void Group::grow(int growth) {
 }
 
 void Group::purge() {
-    std::cout << " End of day ... " << std::endl;
+    //std::cout << " End of day ... " << std::endl;
     Node* it;
     it = head;
     int cnt = 0;

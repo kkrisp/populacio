@@ -50,8 +50,8 @@ int main () {
         }
         rokak.grow(litter);
         rokak.purge();
-        std::cout << i <<".nap, roka alom: " << litter 
-            << "populacio: " << rokak.getLength() << "\n";
+        //std::cout << i <<".nap, roka alom: " << litter 
+        //    << "populacio: " << rokak.getLength() << "\n";
     /* nyulak esznek es szaporodnak */
         it = nyulak.head;
         for (int j=0; j<nyulak.getLength(); j++) {
@@ -78,8 +78,8 @@ int main () {
         }
         nyulak.grow(litter);
         nyulak.purge();
-        std::cout << i <<".nap, nyul alom: " << litter 
-            << "populacio: " << nyulak.getLength() << "\n";
+        //std::cout << i <<".nap, nyul alom: " << litter 
+        //    << "populacio: " << nyulak.getLength() << "\n";
     
         file << i << " " << rokak.getLength() << " " << nyulak.getLength() << std::endl; 
     }
