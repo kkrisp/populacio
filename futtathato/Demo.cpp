@@ -31,9 +31,9 @@ int main () {
                 (nyulak.getLength()-rokak.getLength())/rokak.getLength()*10
             );
             nyulak.shrink(eaten); 
-            Node* m8 = it;
+            Node* m8 = rokak.head;
             if (it->specimen.getHunger() == (int)(it->specimen.getDiet())) {
-                for (int k=j; k<rokak.getLength(); k++) {
+                for (int k=0; k<j; k++) {
                     if (1 == (it->specimen.look_for_mate(m8->specimen))) {
                         /* std::cout <<
                             it->specimen.toString()
@@ -59,8 +59,8 @@ int main () {
             
             //std::cout << nyulak.getLength() << std::endl;
             if (it->specimen.getHunger() == (int)(it->specimen.getDiet())) {
-                Node* m8 = it;
-                for (int k=j; k<nyulak.getLength(); k++) {
+                Node* m8 = nyulak.head;
+                for (int k=0; k<j; k++) {
                     if (1 == (it->specimen.look_for_mate(m8->specimen))) {
 
                         /* std::cout <<

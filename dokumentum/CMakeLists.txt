@@ -12,10 +12,10 @@ configure_file (
                 )
 
 add_latex_document(
-                master.tex
-                INPUTS master.tex
-                IMAGES ../build/eredmenyek.png
-                DEPENDS master.tex plottolas
+                pop_projekt.tex
+                INPUTS pop_projekt.tex
+                IMAGES ../build/eredmenyek.png fox_n_rabbits.jpg
+                DEPENDS pop_projekt.tex plottolas
                 TARGET_NAME dokumentum
                 FORCE_PDF
                 )

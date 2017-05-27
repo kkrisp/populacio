@@ -1,0 +1,55 @@
+\documentclass[twoside]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[]{fontenc}
+\usepackage{graphicx}
+
+\usepackage{anysize}
+\marginsize{3cm}{3cm}{1.5cm}{1.5cm}
+
+\title{Populációdinamika}
+\date{\today}
+\author{Kovács Kristóf Péter}
+
+\begin{document}
+	
+	\maketitle
+	\begin{center}
+		\includegraphics[width = 0.4\textwidth]{fox_n_rabbits}
+		\\
+		\tiny{Kép: Fox and Hare,
+		\\hannahaha (devianart), 2011.}
+	\end{center}
+	\pagebreak
+	\section*{A program}
+		A program két állatcsoport, számának változásait mutatja be, egy ragadozókból állóét, és annak zsákmányáét. Nem differenciálegyenleteket használ, hanem minden állatot egyenként szimulál.
+		\subsection*{Állatok szimulálása}
+		Egy állat véletlenszerúen talál táplálékot, melyet egy faktor befolyásol (például a zsákmány száma). Ha nem talál semennyit, elpusztul. Ha egy bizonyos mennyiséghez hozzájut szaporodni fog.
+		\par Egy jóllakott hím és nőstény állat a szaporulatnak megfelelő utódot hoz létre. A nemeket az állatok véletlenszerűen kapják.
+		\par Az állatoknak van egy megadott élettartama is.
+		\subsection*{Léptetés}
+		Az állatokat két láncolt listában tároltam. Egy körben ezeken a listákon iterálnak végig ciklusok. A sorra kerülő állat élelmet keres, majd, ha eleget talált, egy szintén jóllakott párt.
+		\par A párkeresés a már korábban táplálkozott állat közül történik. A párzás egyel csökkenti a két példány éhségét, így nem kerülnek többször kiválasztásra.
+		\par Egy kör lejátszása emiatt a módszer miatt magas példányszám mellett igen hosszúra nyúlhat.
+		
+	\section*{Eremények}
+		\par A program nagyon érzékeny volt a kezdeti feltételekre. Sokszor előfordult, hogy pár kör alatt kihalt egyik vagy másik faj, vagy a számuk fokozatosan nőtt, amíg a program túlzottan le nem lassult.
+		\subsection*{Kapott adatok}	
+		\par Az alábbi diagram egy fenntartható arányt mutat:
+		\begin{center}
+			\includegraphics[width = \textwidth]{../build/eredmenyek.png}
+		\end{center}
+		\par Kezdeti feltételek:
+		\begin{center}
+			\begin{tabular}{crrc}
+				&róka&nyúl&\\
+				példányszám&10&100&\\
+				élettartam&7&3&\\
+				napi élelem&2&(1)&\\
+				&&&\\
+				\multicolumn{4}{l}{a rókák 11--szer annyi nyúl mellett vadásznak 100\%-os sikerrel}\\
+			\end{tabular}
+		\end{center}
+		\par Megfigyelhető, hogy a nyulak száma mindig 1000 köré esik vissza, ennek oka, hogy a rókák itt nem tudták szabályozni a nyulak számát, e miatt be kellett vezetni a nyulaknak is egy táplálékforrást, ami 1000 nyulat tud megfelelően eltartani. Az arány közel ugyanaz maradt, mint kezdetben, azaz 11-szeres.
+		\par Ezt azt jelzi, hogy mérvadóan csak a táplálékforrás szabályozta az populációt.
+
+\end{document}

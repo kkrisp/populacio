@@ -53,31 +53,37 @@ CMAKE_BINARY_DIR = /home/kris/Documents/KutInf/Beadadno/build
 # Include the progress variables for this target.
 include dokumentum/CMakeFiles/dokumentum_pdf.dir/progress.make
 
-dokumentum/CMakeFiles/dokumentum_pdf: dokumentum/master.pdf
+dokumentum/CMakeFiles/dokumentum_pdf: dokumentum/pop_projekt.pdf
 
 
-dokumentum/master.pdf: ../dokumentum/master.tex
-dokumentum/master.pdf: build/eredmenyek.png
-dokumentum/master.pdf: dokumentum/master.tex
-dokumentum/master.pdf: dokumentum/master.tex
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kris/Documents/KutInf/Beadadno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating master.pdf"
-	cd /home/kris/Documents/KutInf/Beadadno/build/dokumentum && /usr/bin/cmake -E chdir /home/kris/Documents/KutInf/Beadadno/build/dokumentum /usr/bin/cmake -D LATEX_BUILD_COMMAND=execute_latex -D LATEX_TARGET=master -D LATEX_WORKING_DIRECTORY="/home/kris/Documents/KutInf/Beadadno/build/dokumentum" -D LATEX_FULL_COMMAND="/usr/bin/pdflatex -interaction=batchmode -file-line-error master.tex" -P /home/kris/Documents/KutInf/Beadadno/dokumentum/UseLATEX.cmake
-	cd /home/kris/Documents/KutInf/Beadadno/build/dokumentum && /usr/bin/cmake -E chdir /home/kris/Documents/KutInf/Beadadno/build/dokumentum /usr/bin/cmake -D LATEX_BUILD_COMMAND=execute_latex -D LATEX_TARGET=master -D LATEX_WORKING_DIRECTORY="/home/kris/Documents/KutInf/Beadadno/build/dokumentum" -D LATEX_FULL_COMMAND="/usr/bin/pdflatex -interaction=batchmode -file-line-error master.tex" -P /home/kris/Documents/KutInf/Beadadno/dokumentum/UseLATEX.cmake
-	cd /home/kris/Documents/KutInf/Beadadno/build/dokumentum && /usr/bin/cmake -E chdir /home/kris/Documents/KutInf/Beadadno/build/dokumentum /usr/bin/cmake -D LATEX_BUILD_COMMAND=execute_latex -D LATEX_TARGET=master -D LATEX_WORKING_DIRECTORY="/home/kris/Documents/KutInf/Beadadno/build/dokumentum" -D LATEX_FULL_COMMAND="/usr/bin/pdflatex -interaction=batchmode -file-line-error master.tex" -P /home/kris/Documents/KutInf/Beadadno/dokumentum/UseLATEX.cmake
-	cd /home/kris/Documents/KutInf/Beadadno/build/dokumentum && /usr/bin/cmake -E chdir /home/kris/Documents/KutInf/Beadadno/build/dokumentum /usr/bin/cmake -D LATEX_BUILD_COMMAND=check_important_warnings -D LATEX_TARGET=master -P /home/kris/Documents/KutInf/Beadadno/dokumentum/UseLATEX.cmake
+dokumentum/pop_projekt.pdf: ../dokumentum/pop_projekt.tex
+dokumentum/pop_projekt.pdf: build/eredmenyek.png
+dokumentum/pop_projekt.pdf: dokumentum/fox_n_rabbits.jpg
+dokumentum/pop_projekt.pdf: dokumentum/pop_projekt.tex
+dokumentum/pop_projekt.pdf: dokumentum/pop_projekt.tex
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kris/Documents/KutInf/Beadadno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating pop_projekt.pdf"
+	cd /home/kris/Documents/KutInf/Beadadno/build/dokumentum && /usr/bin/cmake -E chdir /home/kris/Documents/KutInf/Beadadno/build/dokumentum /usr/bin/cmake -D LATEX_BUILD_COMMAND=execute_latex -D LATEX_TARGET=pop_projekt -D LATEX_WORKING_DIRECTORY="/home/kris/Documents/KutInf/Beadadno/build/dokumentum" -D LATEX_FULL_COMMAND="/usr/bin/pdflatex -interaction=batchmode -file-line-error pop_projekt.tex" -P /home/kris/Documents/KutInf/Beadadno/dokumentum/UseLATEX.cmake
+	cd /home/kris/Documents/KutInf/Beadadno/build/dokumentum && /usr/bin/cmake -E chdir /home/kris/Documents/KutInf/Beadadno/build/dokumentum /usr/bin/cmake -D LATEX_BUILD_COMMAND=execute_latex -D LATEX_TARGET=pop_projekt -D LATEX_WORKING_DIRECTORY="/home/kris/Documents/KutInf/Beadadno/build/dokumentum" -D LATEX_FULL_COMMAND="/usr/bin/pdflatex -interaction=batchmode -file-line-error pop_projekt.tex" -P /home/kris/Documents/KutInf/Beadadno/dokumentum/UseLATEX.cmake
+	cd /home/kris/Documents/KutInf/Beadadno/build/dokumentum && /usr/bin/cmake -E chdir /home/kris/Documents/KutInf/Beadadno/build/dokumentum /usr/bin/cmake -D LATEX_BUILD_COMMAND=execute_latex -D LATEX_TARGET=pop_projekt -D LATEX_WORKING_DIRECTORY="/home/kris/Documents/KutInf/Beadadno/build/dokumentum" -D LATEX_FULL_COMMAND="/usr/bin/pdflatex -interaction=batchmode -file-line-error pop_projekt.tex" -P /home/kris/Documents/KutInf/Beadadno/dokumentum/UseLATEX.cmake
+	cd /home/kris/Documents/KutInf/Beadadno/build/dokumentum && /usr/bin/cmake -E chdir /home/kris/Documents/KutInf/Beadadno/build/dokumentum /usr/bin/cmake -D LATEX_BUILD_COMMAND=check_important_warnings -D LATEX_TARGET=pop_projekt -P /home/kris/Documents/KutInf/Beadadno/dokumentum/UseLATEX.cmake
 
-dokumentum/master.tex: ../dokumentum/master.tex
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kris/Documents/KutInf/Beadadno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating master.tex"
-	cd /home/kris/Documents/KutInf/Beadadno/build/dokumentum && /usr/bin/cmake -E copy /home/kris/Documents/KutInf/Beadadno/dokumentum/master.tex /home/kris/Documents/KutInf/Beadadno/build/dokumentum/master.tex
+dokumentum/pop_projekt.tex: ../dokumentum/pop_projekt.tex
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kris/Documents/KutInf/Beadadno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating pop_projekt.tex"
+	cd /home/kris/Documents/KutInf/Beadadno/build/dokumentum && /usr/bin/cmake -E copy /home/kris/Documents/KutInf/Beadadno/dokumentum/pop_projekt.tex /home/kris/Documents/KutInf/Beadadno/build/dokumentum/pop_projekt.tex
 
 build/eredmenyek.png: eredmenyek.png
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kris/Documents/KutInf/Beadadno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating ../build/eredmenyek.png"
 	cd /home/kris/Documents/KutInf/Beadadno/build/dokumentum && /usr/bin/cmake -E copy /home/kris/Documents/KutInf/Beadadno/dokumentum/../build/eredmenyek.png /home/kris/Documents/KutInf/Beadadno/build/dokumentum/../build/eredmenyek.png
 
+dokumentum/fox_n_rabbits.jpg: ../dokumentum/fox_n_rabbits.jpg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kris/Documents/KutInf/Beadadno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating fox_n_rabbits.jpg"
+	cd /home/kris/Documents/KutInf/Beadadno/build/dokumentum && /usr/bin/cmake -E copy /home/kris/Documents/KutInf/Beadadno/dokumentum/fox_n_rabbits.jpg /home/kris/Documents/KutInf/Beadadno/build/dokumentum/fox_n_rabbits.jpg
+
 dokumentum_pdf: dokumentum/CMakeFiles/dokumentum_pdf
-dokumentum_pdf: dokumentum/master.pdf
-dokumentum_pdf: dokumentum/master.tex
+dokumentum_pdf: dokumentum/pop_projekt.pdf
+dokumentum_pdf: dokumentum/pop_projekt.tex
 dokumentum_pdf: build/eredmenyek.png
+dokumentum_pdf: dokumentum/fox_n_rabbits.jpg
 dokumentum_pdf: dokumentum/CMakeFiles/dokumentum_pdf.dir/build.make
 
 .PHONY : dokumentum_pdf
