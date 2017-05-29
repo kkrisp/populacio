@@ -66,7 +66,7 @@
 		{ \centering \textgreater\ gnuplot script.p \par }
 		parancsot hajtja végre. Szükséges hozzá még a Gnuplot package.
 		\subsubsection*{dokumentum}
-		A végső PDF létrehozásáért felel. Egy kiegészítő cmake fájlt haszál fel, amit a mappája tartalmaz is. A latex fordító igen érzékeny a képek helyének hivatkozásaira, ezért a használt \textbf{UseLATEX.cmake} minden képet lemásol és megfelelő útvonalat alkotó mappákba rakja őket. A még nem plottolt ábrákkal ezt nem tudná megtenni, ezért helyettük felülírhatő cserefájlokat generál.\par 
+		A végső PDF létrehozásáért felel. Egy kiegészítő cmake fájlt haszál hozzá, amelyet a projekt mappája tartalmaz, és amely elindítja a latex fájl fordítását. A latex fordító igen érzékeny a képek helyének hivatkozásaira, ezért a használt \textbf{UseLATEX.cmake} minden képet lemásol és megfelelő útvonalat alkotó mappákba rakja őket. A még nem plottolt ábrákkal ezt nem tudná megtenni, ezért helyettük felülírhatő cserefájlokat generál.\par 
 	\subsection*{Megosztás}
 		A programot és annak változásait a saját gépemen a \textbf{git} segítségével mentettem el a \textit{git add .} és \textit{git commit} parancsokkal a helyi repository-ba. \par
 		A kész mentéseket a \textit{git push} paranccsal töltöttem fel a korábban elkészített online repository-ba, előtte beállítva annak url-jét a \textit{git remote add} paranccsal.
