@@ -3,7 +3,7 @@ project (Szimulacio LANGUAGES CXX)
 
 # definialjuk a verzioszamokat
 set (Populacio_szim_verzio 1)
-set (Populacio_szim_alverzio 0)
+set (Populacio_szim_alverzio 2)
 
 configure_file (
                 "${PROJECT_SOURCE_DIR}/Demo.hpp.in"
