@@ -57,64 +57,64 @@ include forrasfajlok/CMakeFiles/Fauna.dir/progress.make
 # Include the compile flags for this target's objects.
 include forrasfajlok/CMakeFiles/Fauna.dir/flags.make
 
-forrasfajlok/CMakeFiles/Fauna.dir/testek/Group.cpp.o: forrasfajlok/CMakeFiles/Fauna.dir/flags.make
-forrasfajlok/CMakeFiles/Fauna.dir/testek/Group.cpp.o: ../forrasfajlok/testek/Group.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kris/Documents/KutInf/Beadadno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object forrasfajlok/CMakeFiles/Fauna.dir/testek/Group.cpp.o"
-	cd /home/kris/Documents/KutInf/Beadadno/build/forrasfajlok && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Fauna.dir/testek/Group.cpp.o -c /home/kris/Documents/KutInf/Beadadno/forrasfajlok/testek/Group.cpp
+forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Group.cpp.o: forrasfajlok/CMakeFiles/Fauna.dir/flags.make
+forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Group.cpp.o: ../forrasfajlok/torzsek/Group.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kris/Documents/KutInf/Beadadno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Group.cpp.o"
+	cd /home/kris/Documents/KutInf/Beadadno/build/forrasfajlok && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Fauna.dir/torzsek/Group.cpp.o -c /home/kris/Documents/KutInf/Beadadno/forrasfajlok/torzsek/Group.cpp
 
-forrasfajlok/CMakeFiles/Fauna.dir/testek/Group.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Fauna.dir/testek/Group.cpp.i"
-	cd /home/kris/Documents/KutInf/Beadadno/build/forrasfajlok && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kris/Documents/KutInf/Beadadno/forrasfajlok/testek/Group.cpp > CMakeFiles/Fauna.dir/testek/Group.cpp.i
+forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Group.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Fauna.dir/torzsek/Group.cpp.i"
+	cd /home/kris/Documents/KutInf/Beadadno/build/forrasfajlok && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kris/Documents/KutInf/Beadadno/forrasfajlok/torzsek/Group.cpp > CMakeFiles/Fauna.dir/torzsek/Group.cpp.i
 
-forrasfajlok/CMakeFiles/Fauna.dir/testek/Group.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Fauna.dir/testek/Group.cpp.s"
-	cd /home/kris/Documents/KutInf/Beadadno/build/forrasfajlok && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kris/Documents/KutInf/Beadadno/forrasfajlok/testek/Group.cpp -o CMakeFiles/Fauna.dir/testek/Group.cpp.s
+forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Group.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Fauna.dir/torzsek/Group.cpp.s"
+	cd /home/kris/Documents/KutInf/Beadadno/build/forrasfajlok && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kris/Documents/KutInf/Beadadno/forrasfajlok/torzsek/Group.cpp -o CMakeFiles/Fauna.dir/torzsek/Group.cpp.s
 
-forrasfajlok/CMakeFiles/Fauna.dir/testek/Group.cpp.o.requires:
+forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Group.cpp.o.requires:
 
-.PHONY : forrasfajlok/CMakeFiles/Fauna.dir/testek/Group.cpp.o.requires
+.PHONY : forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Group.cpp.o.requires
 
-forrasfajlok/CMakeFiles/Fauna.dir/testek/Group.cpp.o.provides: forrasfajlok/CMakeFiles/Fauna.dir/testek/Group.cpp.o.requires
-	$(MAKE) -f forrasfajlok/CMakeFiles/Fauna.dir/build.make forrasfajlok/CMakeFiles/Fauna.dir/testek/Group.cpp.o.provides.build
-.PHONY : forrasfajlok/CMakeFiles/Fauna.dir/testek/Group.cpp.o.provides
+forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Group.cpp.o.provides: forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Group.cpp.o.requires
+	$(MAKE) -f forrasfajlok/CMakeFiles/Fauna.dir/build.make forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Group.cpp.o.provides.build
+.PHONY : forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Group.cpp.o.provides
 
-forrasfajlok/CMakeFiles/Fauna.dir/testek/Group.cpp.o.provides.build: forrasfajlok/CMakeFiles/Fauna.dir/testek/Group.cpp.o
+forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Group.cpp.o.provides.build: forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Group.cpp.o
 
 
-forrasfajlok/CMakeFiles/Fauna.dir/testek/Animal.cpp.o: forrasfajlok/CMakeFiles/Fauna.dir/flags.make
-forrasfajlok/CMakeFiles/Fauna.dir/testek/Animal.cpp.o: ../forrasfajlok/testek/Animal.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kris/Documents/KutInf/Beadadno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object forrasfajlok/CMakeFiles/Fauna.dir/testek/Animal.cpp.o"
-	cd /home/kris/Documents/KutInf/Beadadno/build/forrasfajlok && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Fauna.dir/testek/Animal.cpp.o -c /home/kris/Documents/KutInf/Beadadno/forrasfajlok/testek/Animal.cpp
+forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Animal.cpp.o: forrasfajlok/CMakeFiles/Fauna.dir/flags.make
+forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Animal.cpp.o: ../forrasfajlok/torzsek/Animal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kris/Documents/KutInf/Beadadno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Animal.cpp.o"
+	cd /home/kris/Documents/KutInf/Beadadno/build/forrasfajlok && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Fauna.dir/torzsek/Animal.cpp.o -c /home/kris/Documents/KutInf/Beadadno/forrasfajlok/torzsek/Animal.cpp
 
-forrasfajlok/CMakeFiles/Fauna.dir/testek/Animal.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Fauna.dir/testek/Animal.cpp.i"
-	cd /home/kris/Documents/KutInf/Beadadno/build/forrasfajlok && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kris/Documents/KutInf/Beadadno/forrasfajlok/testek/Animal.cpp > CMakeFiles/Fauna.dir/testek/Animal.cpp.i
+forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Animal.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Fauna.dir/torzsek/Animal.cpp.i"
+	cd /home/kris/Documents/KutInf/Beadadno/build/forrasfajlok && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kris/Documents/KutInf/Beadadno/forrasfajlok/torzsek/Animal.cpp > CMakeFiles/Fauna.dir/torzsek/Animal.cpp.i
 
-forrasfajlok/CMakeFiles/Fauna.dir/testek/Animal.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Fauna.dir/testek/Animal.cpp.s"
-	cd /home/kris/Documents/KutInf/Beadadno/build/forrasfajlok && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kris/Documents/KutInf/Beadadno/forrasfajlok/testek/Animal.cpp -o CMakeFiles/Fauna.dir/testek/Animal.cpp.s
+forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Animal.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Fauna.dir/torzsek/Animal.cpp.s"
+	cd /home/kris/Documents/KutInf/Beadadno/build/forrasfajlok && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kris/Documents/KutInf/Beadadno/forrasfajlok/torzsek/Animal.cpp -o CMakeFiles/Fauna.dir/torzsek/Animal.cpp.s
 
-forrasfajlok/CMakeFiles/Fauna.dir/testek/Animal.cpp.o.requires:
+forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Animal.cpp.o.requires:
 
-.PHONY : forrasfajlok/CMakeFiles/Fauna.dir/testek/Animal.cpp.o.requires
+.PHONY : forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Animal.cpp.o.requires
 
-forrasfajlok/CMakeFiles/Fauna.dir/testek/Animal.cpp.o.provides: forrasfajlok/CMakeFiles/Fauna.dir/testek/Animal.cpp.o.requires
-	$(MAKE) -f forrasfajlok/CMakeFiles/Fauna.dir/build.make forrasfajlok/CMakeFiles/Fauna.dir/testek/Animal.cpp.o.provides.build
-.PHONY : forrasfajlok/CMakeFiles/Fauna.dir/testek/Animal.cpp.o.provides
+forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Animal.cpp.o.provides: forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Animal.cpp.o.requires
+	$(MAKE) -f forrasfajlok/CMakeFiles/Fauna.dir/build.make forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Animal.cpp.o.provides.build
+.PHONY : forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Animal.cpp.o.provides
 
-forrasfajlok/CMakeFiles/Fauna.dir/testek/Animal.cpp.o.provides.build: forrasfajlok/CMakeFiles/Fauna.dir/testek/Animal.cpp.o
+forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Animal.cpp.o.provides.build: forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Animal.cpp.o
 
 
 # Object files for target Fauna
 Fauna_OBJECTS = \
-"CMakeFiles/Fauna.dir/testek/Group.cpp.o" \
-"CMakeFiles/Fauna.dir/testek/Animal.cpp.o"
+"CMakeFiles/Fauna.dir/torzsek/Group.cpp.o" \
+"CMakeFiles/Fauna.dir/torzsek/Animal.cpp.o"
 
 # External object files for target Fauna
 Fauna_EXTERNAL_OBJECTS =
 
-forrasfajlok/libFauna.a: forrasfajlok/CMakeFiles/Fauna.dir/testek/Group.cpp.o
-forrasfajlok/libFauna.a: forrasfajlok/CMakeFiles/Fauna.dir/testek/Animal.cpp.o
+forrasfajlok/libFauna.a: forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Group.cpp.o
+forrasfajlok/libFauna.a: forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Animal.cpp.o
 forrasfajlok/libFauna.a: forrasfajlok/CMakeFiles/Fauna.dir/build.make
 forrasfajlok/libFauna.a: forrasfajlok/CMakeFiles/Fauna.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kris/Documents/KutInf/Beadadno/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libFauna.a"
@@ -126,8 +126,8 @@ forrasfajlok/CMakeFiles/Fauna.dir/build: forrasfajlok/libFauna.a
 
 .PHONY : forrasfajlok/CMakeFiles/Fauna.dir/build
 
-forrasfajlok/CMakeFiles/Fauna.dir/requires: forrasfajlok/CMakeFiles/Fauna.dir/testek/Group.cpp.o.requires
-forrasfajlok/CMakeFiles/Fauna.dir/requires: forrasfajlok/CMakeFiles/Fauna.dir/testek/Animal.cpp.o.requires
+forrasfajlok/CMakeFiles/Fauna.dir/requires: forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Group.cpp.o.requires
+forrasfajlok/CMakeFiles/Fauna.dir/requires: forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Animal.cpp.o.requires
 
 .PHONY : forrasfajlok/CMakeFiles/Fauna.dir/requires
 

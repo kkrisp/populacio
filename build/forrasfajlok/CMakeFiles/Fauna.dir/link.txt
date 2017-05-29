@@ -1,2 +1,2 @@
-/usr/bin/ar qc libFauna.a  CMakeFiles/Fauna.dir/testek/Group.cpp.o CMakeFiles/Fauna.dir/testek/Animal.cpp.o
+/usr/bin/ar qc libFauna.a  CMakeFiles/Fauna.dir/torzsek/Group.cpp.o CMakeFiles/Fauna.dir/torzsek/Animal.cpp.o
 /usr/bin/ranlib libFauna.a

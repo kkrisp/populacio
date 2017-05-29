@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Fauna.dir/testek/Group.cpp.o"
-  "CMakeFiles/Fauna.dir/testek/Animal.cpp.o"
+  "CMakeFiles/Fauna.dir/torzsek/Group.cpp.o"
+  "CMakeFiles/Fauna.dir/torzsek/Animal.cpp.o"
   "libFauna.pdb"
   "libFauna.a"
 )

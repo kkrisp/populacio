@@ -125,59 +125,59 @@ Fauna/fast:
 	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f forrasfajlok/CMakeFiles/Fauna.dir/build.make forrasfajlok/CMakeFiles/Fauna.dir/build
 .PHONY : Fauna/fast
 
-testek/Animal.o: testek/Animal.cpp.o
+torzsek/Animal.o: torzsek/Animal.cpp.o
 
-.PHONY : testek/Animal.o
-
-# target to build an object file
-testek/Animal.cpp.o:
-	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f forrasfajlok/CMakeFiles/Fauna.dir/build.make forrasfajlok/CMakeFiles/Fauna.dir/testek/Animal.cpp.o
-.PHONY : testek/Animal.cpp.o
-
-testek/Animal.i: testek/Animal.cpp.i
-
-.PHONY : testek/Animal.i
-
-# target to preprocess a source file
-testek/Animal.cpp.i:
-	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f forrasfajlok/CMakeFiles/Fauna.dir/build.make forrasfajlok/CMakeFiles/Fauna.dir/testek/Animal.cpp.i
-.PHONY : testek/Animal.cpp.i
-
-testek/Animal.s: testek/Animal.cpp.s
-
-.PHONY : testek/Animal.s
-
-# target to generate assembly for a file
-testek/Animal.cpp.s:
-	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f forrasfajlok/CMakeFiles/Fauna.dir/build.make forrasfajlok/CMakeFiles/Fauna.dir/testek/Animal.cpp.s
-.PHONY : testek/Animal.cpp.s
-
-testek/Group.o: testek/Group.cpp.o
-
-.PHONY : testek/Group.o
+.PHONY : torzsek/Animal.o
 
 # target to build an object file
-testek/Group.cpp.o:
-	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f forrasfajlok/CMakeFiles/Fauna.dir/build.make forrasfajlok/CMakeFiles/Fauna.dir/testek/Group.cpp.o
-.PHONY : testek/Group.cpp.o
+torzsek/Animal.cpp.o:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f forrasfajlok/CMakeFiles/Fauna.dir/build.make forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Animal.cpp.o
+.PHONY : torzsek/Animal.cpp.o
 
-testek/Group.i: testek/Group.cpp.i
+torzsek/Animal.i: torzsek/Animal.cpp.i
 
-.PHONY : testek/Group.i
+.PHONY : torzsek/Animal.i
 
 # target to preprocess a source file
-testek/Group.cpp.i:
-	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f forrasfajlok/CMakeFiles/Fauna.dir/build.make forrasfajlok/CMakeFiles/Fauna.dir/testek/Group.cpp.i
-.PHONY : testek/Group.cpp.i
+torzsek/Animal.cpp.i:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f forrasfajlok/CMakeFiles/Fauna.dir/build.make forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Animal.cpp.i
+.PHONY : torzsek/Animal.cpp.i
 
-testek/Group.s: testek/Group.cpp.s
+torzsek/Animal.s: torzsek/Animal.cpp.s
 
-.PHONY : testek/Group.s
+.PHONY : torzsek/Animal.s
 
 # target to generate assembly for a file
-testek/Group.cpp.s:
-	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f forrasfajlok/CMakeFiles/Fauna.dir/build.make forrasfajlok/CMakeFiles/Fauna.dir/testek/Group.cpp.s
-.PHONY : testek/Group.cpp.s
+torzsek/Animal.cpp.s:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f forrasfajlok/CMakeFiles/Fauna.dir/build.make forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Animal.cpp.s
+.PHONY : torzsek/Animal.cpp.s
+
+torzsek/Group.o: torzsek/Group.cpp.o
+
+.PHONY : torzsek/Group.o
+
+# target to build an object file
+torzsek/Group.cpp.o:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f forrasfajlok/CMakeFiles/Fauna.dir/build.make forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Group.cpp.o
+.PHONY : torzsek/Group.cpp.o
+
+torzsek/Group.i: torzsek/Group.cpp.i
+
+.PHONY : torzsek/Group.i
+
+# target to preprocess a source file
+torzsek/Group.cpp.i:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f forrasfajlok/CMakeFiles/Fauna.dir/build.make forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Group.cpp.i
+.PHONY : torzsek/Group.cpp.i
+
+torzsek/Group.s: torzsek/Group.cpp.s
+
+.PHONY : torzsek/Group.s
+
+# target to generate assembly for a file
+torzsek/Group.cpp.s:
+	cd /home/kris/Documents/KutInf/Beadadno/build && $(MAKE) -f forrasfajlok/CMakeFiles/Fauna.dir/build.make forrasfajlok/CMakeFiles/Fauna.dir/torzsek/Group.cpp.s
+.PHONY : torzsek/Group.cpp.s
 
 # Help Target
 help:
@@ -188,12 +188,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Fauna"
-	@echo "... testek/Animal.o"
-	@echo "... testek/Animal.i"
-	@echo "... testek/Animal.s"
-	@echo "... testek/Group.o"
-	@echo "... testek/Group.i"
-	@echo "... testek/Group.s"
+	@echo "... torzsek/Animal.o"
+	@echo "... torzsek/Animal.i"
+	@echo "... torzsek/Animal.s"
+	@echo "... torzsek/Group.o"
+	@echo "... torzsek/Group.i"
+	@echo "... torzsek/Group.s"
 .PHONY : help
 
 
